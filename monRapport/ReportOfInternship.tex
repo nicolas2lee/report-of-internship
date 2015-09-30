@@ -1,0 +1,84 @@
+% chercher des documents LaTeX dans styles, corps et bib
+\makeatletter\def\input@path{{styles/}{body/}{bib/}}\makeatother
+
+% Utiliser le style rapport.cls
+\documentclass[a4paper]{article}
+
+\usepackage[a4paper,vdivide={*,22cm,4cm}]{geometry}
+%\usepackage[french]{babel} % style francais
+\usepackage{pageGardeEnsta}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+
+%============ insert code into latex ==============
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Ruby,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+%==================================================
+
+
+% pour charger des images
+\usepackage{graphicx}
+% repertoire dans lequel trouver les images
+\graphicspath{{imgs/}}
+\DeclareGraphicsExtensions{.eps,.ps,.jpg,.bmp,.png}
+% liens hypertexte dans le document
+\usepackage[colorlinks,breaklinks]{hyperref}
+
+
+\title{Report of Internship }
+\author{ZHENG \textsc{Tao}\\
+  \texttt{tao.zheng@ensta-bretagne.org}\\
+  \texttt{Système logiciel et Sécurité}\\}
+\date{\today}
+\doctype{Rapport}
+\promo{CI 2016}
+\etablissement{\textsc{Ensta} Bretagne\\2, rue François Verny\\
+  29806 \textsc{Brest} cedex\\\textsc{France}\\Tel +33 (0)2 98 34 88 00\\ \url{www.ensta-bretagne.fr}}
+\logoEcole{\includegraphics[height=4.2cm]{logo_ENSTA_Bretagne_Vertical_CMJN}}
+
+
+\begin{document}
+
+% creer le titre ici
+\maketitle
+%============= Un resume en francais et un abstract en angais d'un demi-page chacun a placer en debut de rapport
+%============= introduction
+\include{introduction}
+%============= Une presentation du contexte
+%============= Une problematisation du theme, des objectifs et des enjeux
+\include{mainwork}
+%============= Une description de l'activite et des resultats du stage
+%============= Une analyse économique de l'entreprise
+%============= Une analyse de l'apport du stage pour le projet professionnel de l'etudient
+%============= Conclusion
+%============= annexe
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

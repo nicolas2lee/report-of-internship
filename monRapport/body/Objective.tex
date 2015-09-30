@@ -1,0 +1,15 @@
+\subsection{Internship Objectives}
+As all the competitive robots accomplish their missions in the sea, and it is really hard to supervise the whole traces of all robots, furthermore it is impossible to measure accurately all the positions of robots, just based on the crews' visions, especially under the extreme weather conditions. From this raison, it is necessary to build a reliable tracking system which can gather all GPS data and time stamps in order to record all the states during certain periods not only for controlling robots' states in case of intervening collision avoidance, but also for evaluating the final performance of all the robots.
+
+With the efforts of our predecessors, we had already defined the usable API for our electronic cards, which means we had already defined the API for gathering GPS data including latitude, longitude, date time, course and speed, but with the antennas in the previous version, because the antennas were not suitable and specified for our desired frequency to gather GPS information, although we could also obtain all the GPS data what we want, the precision of measurement remains insufficient. So for the hardware part, we need to choose appropriate antennas, and we need to prepare all the materials for the tracking system for the final competition(like: battery, electronic cards, SIMCOM modules, SIM cards, and boxes which were used to put the whole tracker), unfortunately, at the beginning of our internship, the number of participated teams is still unknown, to make sure we got enough trackers, we booked 10 for each module. What's more, we had the Lua code which permits the electronic card to be run automatically. 
+
+For software part, the previous version of website based on the technology Ruby On Rails and the google map (Javascript APIs were provided and published on the Internet by Google Company freely.) And the performance of the previous version website in Galway (Ireland, WRSC 2014) proved that the website was built successfully. However, the old css and html were obsolete, and the admin marker creation need to be added. Since the website could display all the information gathered by the tracker in the google map, but the website did not handle of these information further till this moment. So as for the website, several domains remain to be improved:
+\begin{itemize}
+\item The security of account need to be reinforced; 
+\item Replay and real-time display methods need to be improved to reduce the pressure of server;
+\item Scoring and Ranking based on the data gathered by tracker;
+\item Admin marker creation need to be added, also need to add the markers to the page replay and page real-time.
+\item Css and html features need to be updated.
+\end{itemize}
+
+
