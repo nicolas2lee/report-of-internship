@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.12)  1 OCT 2015 00:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.12)  2 OCT 2015 01:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -988,7 +988,53 @@ LaTeX Warning: Label `fig-sample' multiply defined.
 
 LaTeX Warning: Label `fig-sample' multiply defined.
 
-))
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+) (./reflection.aux
+
+LaTeX Warning: Label `fig-sample' multiply defined.
+
+) (./conclusion.aux))
 \openout1 = `ReportOfInternship.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
@@ -1139,7 +1185,7 @@ ertical_CMJN-eps-converted-to.pdf imgs/logo_ENSTA_Bretagne_Vertical_CMJN.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
-<imgs/logo_ENSTA_Bretagne_Vertical_CMJN-eps-converted-to.pdf, id=55, 236.885pt 
+<imgs/logo_ENSTA_Bretagne_Vertical_CMJN-eps-converted-to.pdf, id=87, 236.885pt 
 x 285.065pt>
 File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1190,178 +1236,449 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout2 = `mainwork.aux'.
 
 
-(./body/mainwork.tex <imgs/allbranches.png, id=80, 756.8275pt x 647.41875pt>
+(./body/mainwork.tex <imgs/allbranches.png, id=112, 756.8275pt x 647.41875pt>
 File: imgs/allbranches.png Graphic file (type png)
 
 <use imgs/allbranches.png>
-Package pdftex.def Info: imgs/allbranches.png used on input line 7.
+Package pdftex.def Info: imgs/allbranches.png used on input line 9.
 (pdftex.def)             Requested size: 341.43306pt x 292.07664pt.
 
-<imgs/oldversion.png, id=81, 795.97375pt x 355.3275pt>
+<imgs/oldversion.png, id=113, 795.97375pt x 355.3275pt>
 File: imgs/oldversion.png Graphic file (type png)
 
 <use imgs/oldversion.png>
-Package pdftex.def Info: imgs/oldversion.png used on input line 24.
+Package pdftex.def Info: imgs/oldversion.png used on input line 26.
 (pdftex.def)             Requested size: 398.33858pt x 177.82053pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imgs/homepage.png, id=82, 1066.98625pt x 770.88pt>
+<imgs/homepage.png, id=114, 1066.98625pt x 770.88pt>
 File: imgs/homepage.png Graphic file (type png)
  <use imgs/homepage.png>
-Package pdftex.def Info: imgs/homepage.png used on input line 31.
+Package pdftex.def Info: imgs/homepage.png used on input line 33.
 (pdftex.def)             Requested size: 369.88582pt x 267.23602pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imgs/oldteamshow.png, id=83, 1223.57124pt x 653.44125pt>
+<imgs/oldteamshow.png, id=115, 320.19624pt x 373.395pt>
 File: imgs/oldteamshow.png Graphic file (type png)
 
 <use imgs/oldteamshow.png>
-Package pdftex.def Info: imgs/oldteamshow.png used on input line 38.
-(pdftex.def)             Requested size: 426.79134pt x 227.92017pt.
+Package pdftex.def Info: imgs/oldteamshow.png used on input line 40.
+(pdftex.def)             Requested size: 426.79134pt x 497.70874pt.
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 38--39
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 40--41
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<imgs/oldrobots.png, id=84, 1196.47pt x 593.21625pt>
-File: imgs/oldrobots.png Graphic file (type png)
- <use imgs/oldrobots.png>
-Package pdftex.def Info: imgs/oldrobots.png used on input line 48.
-(pdftex.def)             Requested size: 426.79134pt x 211.60251pt.
-
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 48--49
- [][] 
- []
-
-<imgs/orgcharts.png, id=85, 1308.89pt x 671.50874pt>
-File: imgs/orgcharts.png Graphic file (type png)
- <use imgs/orgcharts.png>
-Package pdftex.def Info: imgs/orgcharts.png used on input line 54.
-(pdftex.def)             Requested size: 426.79134pt x 218.955pt.
-
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 54--55
- [][] 
- []
 
 [3
 
 
- <./imgs/allbranches.png>] [4 <./imgs/oldversion.png> <./imgs/homepage.png>]
+ <./imgs/allbranches.png>]
+<imgs/oldrobots.png, id=122, 244.915pt x 249.93375pt>
+File: imgs/oldrobots.png Graphic file (type png)
+ <use imgs/oldrobots.png>
+Package pdftex.def Info: imgs/oldrobots.png used on input line 50.
+(pdftex.def)             Requested size: 426.79134pt x 435.5486pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 50--51
+ [][] 
+ []
+
+<imgs/orgcharts.png, id=123, 1308.89pt x 671.50874pt>
+File: imgs/orgcharts.png Graphic file (type png)
+ <use imgs/orgcharts.png>
+Package pdftex.def Info: imgs/orgcharts.png used on input line 56.
+(pdftex.def)             Requested size: 426.79134pt x 218.955pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 56--57
+ [][] 
+ []
+
+[4 <./imgs/oldversion.png> <./imgs/homepage.png>] [5 <./imgs/oldteamshow.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imgs/oldtable.png, id=98, 1127.21124pt x 674.52pt>
-File: imgs/oldtable.png Graphic file (type png)
- <use imgs/oldtable.png>
-Package pdftex.def Info: imgs/oldtable.png used on input line 65.
-(pdftex.def)             Requested size: 426.79134pt x 255.39395pt.
+<imgs/newtable.png, id=135, 762.85pt x 633.36626pt>
+File: imgs/newtable.png Graphic file (type png)
+ <use imgs/newtable.png>
+Package pdftex.def Info: imgs/newtable.png used on input line 67.
+(pdftex.def)             Requested size: 426.79134pt x 354.34444pt.
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 65--66
- [][] 
- []
-
-<imgs/DataTable.png, id=99, 1301.86375pt x 674.52pt>
-File: imgs/DataTable.png Graphic file (type png)
- <use imgs/DataTable.png>
-Package pdftex.def Info: imgs/DataTable.png used on input line 72.
-(pdftex.def)             Requested size: 426.79134pt x 221.13077pt.
-
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 72--73
- [][] 
- []
-
-[5 <./imgs/oldteamshow.png> <./imgs/oldrobots.png>] [6 <./imgs/orgcharts.png> <
-./imgs/oldtable.png>] <imgs/oldsignup.png, id=113, 1094.0875pt x 638.385pt>
-File: imgs/oldsignup.png Graphic file (type png)
-
-<use imgs/oldsignup.png>
-Package pdftex.def Info: imgs/oldsignup.png used on input line 82.
-(pdftex.def)             Requested size: 426.79134pt x 249.02759pt.
-
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 82--83
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<imgs/newsignup.png, id=114, 1371.1225pt x 770.88pt>
-File: imgs/newsignup.png Graphic file (type png)
- <use imgs/newsignup.png>
-Package pdftex.def Info: imgs/newsignup.png used on input line 89.
-(pdftex.def)             Requested size: 426.79134pt x 239.94662pt.
-
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 89--90
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 67--68
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <./imgs/DataTable.png>] [8 <./imgs/oldsignup.png> <./imgs/newsignup.png>]
-Overfull \hbox (2.15045pt too wide) in paragraph at lines 103--104
+[6 <./imgs/oldrobots.png>] <imgs/signup.png, id=142, 582.175pt x 636.3775pt>
+File: imgs/signup.png Graphic file (type png)
+
+<use imgs/signup.png>
+Package pdftex.def Info: imgs/signup.png used on input line 78.
+(pdftex.def)             Requested size: 426.79134pt x 466.53262pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 78--79
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./imgs/orgcharts.png>]
+Overfull \hbox (2.15045pt too wide) in paragraph at lines 92--93
 \T1/lmr/m/n/10 load-ers" will be added into Rails.root(the root path of rails a
 p-pli-ca-tion)/app/uploaders,
  []
 
-[9] [10] <imgs/oldsignin.png, id=165, 1202.4925pt x 650.43pt>
-File: imgs/oldsignin.png Graphic file (type png)
+[8 <./imgs/newtable.png>] [9 <./imgs/signup.png>] [10] [11]
+<imgs/signin.png, id=199, 674.52pt x 422.57875pt>
+File: imgs/signin.png Graphic file (type png)
+ <use imgs/signin.png>
+Package pdftex.def Info: imgs/signin.png used on input line 171.
+(pdftex.def)             Requested size: 426.79134pt x 267.38666pt.
 
-<use imgs/oldsignin.png>
-Package pdftex.def Info: imgs/oldsignin.png used on input line 182.
-(pdftex.def)             Requested size: 426.79134pt x 230.84967pt.
-
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 182--183
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 171--172
  [][] 
  []
 
-<imgs/newsignin.png, id=166, 1371.1225pt x 770.88pt>
-File: imgs/newsignin.png Graphic file (type png)
- <use imgs/newsignin.png>
-Package pdftex.def Info: imgs/newsignin.png used on input line 189.
-(pdftex.def)             Requested size: 426.79134pt x 239.94662pt.
+(./body/adminmarkers.tex
+<imgs/designedadminmarkers.png, id=200, 832.10875pt x 529.98pt>
+File: imgs/designedadminmarkers.png Graphic file (type png)
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 189--190
+<use imgs/designedadminmarkers.png>
+Package pdftex.def Info: imgs/designedadminmarkers.png used on input line 9.
+(pdftex.def)             Requested size: 426.79134pt x 271.8308pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./body/adminmarkers.tex) (./body/scoringandranking.tex [11 <./imgs/oldsignin.p
-ng>] (./body/stationkeeping.tex) (./body/areascanning.tex [12 <./imgs/newsignin
-.png>] <imgs/distanceformula.png, id=181, 1371.1225pt x 770.88pt>
+<imgs/adminmarkers.png, id=201, 1136.245pt x 662.475pt>
+File: imgs/adminmarkers.png Graphic file (type png)
+
+<use imgs/adminmarkers.png>
+Package pdftex.def Info: imgs/adminmarkers.png used on input line 16.
+(pdftex.def)             Requested size: 426.79134pt x 248.83185pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<imgs/examplemarkers.png, id=202, 1316.92pt x 656.4525pt>
+File: imgs/examplemarkers.png Graphic file (type png)
+
+<use imgs/examplemarkers.png>
+Package pdftex.def Info: imgs/examplemarkers.png used on input line 24.
+(pdftex.def)             Requested size: 426.79134pt x 212.74353pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
+
+Overfull \hbox (17.48222pt too wide) in paragraph at lines 20--28
+\T1/lmr/m/n/10 by Google com-pany(https://developers.google.com/maps/documentat
+ion/javascript/markers).
+ []
+
+[12 <./imgs/signin.png>] [13 <./imgs/designedadminmarkers.png> <./imgs/adminmar
+kers.png>] <imgs/ajaxinfowindow.png, id=215, 1280.785pt x 674.52pt>
+File: imgs/ajaxinfowindow.png Graphic file (type png)
+
+<use imgs/ajaxinfowindow.png>
+Package pdftex.def Info: imgs/ajaxinfowindow.png used on input line 35.
+(pdftex.def)             Requested size: 426.79134pt x 224.76396pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 35--36
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<imgs/apiinfowindow.png, id=216, 1271.75125pt x 656.4525pt>
+File: imgs/apiinfowindow.png Graphic file (type png)
+
+<use imgs/apiinfowindow.png>
+Package pdftex.def Info: imgs/apiinfowindow.png used on input line 43.
+(pdftex.def)             Requested size: 426.79134pt x 220.3061pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 43--44
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14 <./imgs/examplemarkers.png>]) (./body/scoringandranking.tex
+(./body/stationkeeping.tex [15 <./imgs/ajaxinfowindow.png> <./imgs/apiinfowindo
+w.png>] <imgs/pinpolygon.png, id=229, 326.21875pt x 216.81pt>
+File: imgs/pinpolygon.png Graphic file (type png)
+
+<use imgs/pinpolygon.png>
+Package pdftex.def Info: imgs/pinpolygon.png used on input line 12.
+(pdftex.def)             Requested size: 341.43306pt x 226.94263pt.
+
+<imgs/pinpolgonmoreexamples.png, id=230, 437.635pt x 155.58125pt>
+File: imgs/pinpolgonmoreexamples.png Graphic file (type png)
+
+<use imgs/pinpolgonmoreexamples.png>
+Package pdftex.def Info: imgs/pinpolgonmoreexamples.png used on input line 20.
+(pdftex.def)             Requested size: 341.43306pt x 121.38136pt.
+
+Overfull \hbox (48.4648pt too wide) in paragraph at lines 8--24
+\T1/lmr/m/n/10 the poly-gon. Based on the Point-in-Polygon Al-go-rithm(http://a
+lienryderflex.com/polygon/),
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./body/areascanning.tex [16 <./imgs/pinpolygon.png>] [17 <./imgs/pinpolgonmo
+reexamples.png>] <imgs/distanceformula.png, id=243, 829.0975pt x 418.56375pt>
 File: imgs/distanceformula.png Graphic file (type png)
 
 <use imgs/distanceformula.png>
 Package pdftex.def Info: imgs/distanceformula.png used on input line 20.
-(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(pdftex.def)             Requested size: 341.43306pt x 172.36588pt.
 
 Overfull \hbox (4.36443pt too wide) in paragraph at lines 25--26
 []\T1/lmr/m/n/10 After the com-par-i-son, in ruby there are three pos-si-bil-i-
 ties(JSON/YAML/XML)
  []
 
-[13]))) [14 <./imgs/distanceformula.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
- (./ReportOfInternship.aux
-(./introduction.aux) (./mainwork.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
+) (./body/improvedmodel.tex
+Package epstopdf Info: Source file: <imgs/improvedpartdatabase.eps>
+(epstopdf)                    date: 2015-10-01 16:00:04
+(epstopdf)                    size: 310010 bytes
+(epstopdf)             Output file: <imgs/improvedpartdatabase-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2015-10-01 16:00:52
+(epstopdf)                    size: 132395 bytes
+(epstopdf)             Command: <repstopdf --outfile=imgs/improvedpartdatabase-
+eps-converted-to.pdf imgs/improvedpartdatabase.eps>
+(epstopdf)             \includegraphics on input line 5.
+Package epstopdf Info: Output file is already uptodate.
+
+<imgs/improvedpartdatabase-eps-converted-to.pdf, id=244, 1013.7875pt x 542.025p
+t>
+File: imgs/improvedpartdatabase-eps-converted-to.pdf Graphic file (type pdf)
+ <use imgs/improvedpartdatabase-eps-converted-to.pdf>
+Package pdftex.def Info: imgs/improvedpartdatabase-eps-converted-to.pdf used on
+ input line 5.
+(pdftex.def)             Requested size: 426.79134pt x 228.17825pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 5--6
+ [][] 
+ []
+
+) (./body/processesofranking.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<imgs/triangular.jpg, id=245, 664.4825pt x 740.7675pt>
+File: imgs/triangular.jpg Graphic file (type jpg)
+
+<use imgs/triangular.jpg>
+Package pdftex.def Info: imgs/triangular.jpg used on input line 5.
+(pdftex.def)             Requested size: 426.79134pt x 475.79636pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 5--6
+ [][] 
+ []
+
+[18 <./imgs/distanceformula.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+))
+Package epstopdf Info: Source file: <imgs/database.eps>
+(epstopdf)                    date: 2015-10-01 15:54:58
+(epstopdf)                    size: 543483 bytes
+(epstopdf)             Output file: <imgs/database-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-01 15:56:08
+(epstopdf)                    size: 224383 bytes
+(epstopdf)             Command: <repstopdf --outfile=imgs/database-eps-converte
+d-to.pdf imgs/database.eps>
+(epstopdf)             \includegraphics on input line 184.
+Package epstopdf Info: Output file is already uptodate.
+ <imgs/database-eps-converted-to.pdf, id=255, 1218.5525pt x 1180.41pt>
+File: imgs/database-eps-converted-to.pdf Graphic file (type pdf)
+
+<use imgs/database-eps-converted-to.pdf>
+Package pdftex.def Info: imgs/database-eps-converted-to.pdf used on input line 
+184.
+(pdftex.def)             Requested size: 426.79134pt x 413.43788pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 184--185
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./body/settings.tex) (./body/result.tex [19 <./imgs/improvedpartdatabase-eps-c
+onverted-to.pdf>] <imgs/emailrecords.png, id=265, 1121.18875pt x 572.1375pt>
+File: imgs/emailrecords.png Graphic file (type png)
+
+<use imgs/emailrecords.png>
+Package pdftex.def Info: imgs/emailrecords.png used on input line 7.
+(pdftex.def)             Requested size: 426.79134pt x 217.7899pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 7--8
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<imgs/contentemail.png, id=266, 871.255pt x 268.00125pt>
+File: imgs/contentemail.png Graphic file (type png)
+
+<use imgs/contentemail.png>
+Package pdftex.def Info: imgs/contentemail.png used on input line 14.
+(pdftex.def)             Requested size: 426.79134pt x 131.28085pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 14--15
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<imgs/resultstatokeeping.jpg, id=268, 1371.1225pt x 674.52pt>
+File: imgs/resultstatokeeping.jpg Graphic file (type jpg)
+
+<use imgs/resultstatokeeping.jpg>
+Package pdftex.def Info: imgs/resultstatokeeping.jpg used on input line 22.
+(pdftex.def)             Requested size: 426.79134pt x 209.9533pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 22--23
+ [][] 
+ []
+
+<imgs/resulttriangularFinished.png, id=269, 1028.34187pt x 467.49657pt>
+File: imgs/resulttriangularFinished.png Graphic file (type png)
+
+<use imgs/resulttriangularFinished.png>
+Package pdftex.def Info: imgs/resulttriangularFinished.png used on input line 2
+8.
+(pdftex.def)             Requested size: 426.79134pt x 194.02885pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 28--29
+ [][] 
+ []
+
+<imgs/resultfleetrace.jpg, id=270, 1371.1225pt x 662.475pt>
+File: imgs/resultfleetrace.jpg Graphic file (type jpg)
+
+<use imgs/resultfleetrace.jpg>
+Package pdftex.def Info: imgs/resultfleetrace.jpg used on input line 34.
+(pdftex.def)             Requested size: 426.79134pt x 206.20413pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 34--35
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<imgs/finalranking.png, id=271, 759.83875pt x 644.4075pt>
+File: imgs/finalranking.png Graphic file (type png)
+
+<use imgs/finalranking.png>
+Package pdftex.def Info: imgs/finalranking.png used on input line 42.
+(pdftex.def)             Requested size: 426.79134pt x 361.95718pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 42--43
+ [][] 
+ []
+
+<imgs/uploadingfiles.png, id=272, 302.12875pt x 439.6425pt>
+File: imgs/uploadingfiles.png Graphic file (type png)
+
+<use imgs/uploadingfiles.png>
+Package pdftex.def Info: imgs/uploadingfiles.png used on input line 49.
+(pdftex.def)             Requested size: 426.79134pt x 621.04985pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 49--50
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 19.03366pt on input line 52.
+
+<imgs/xmlfile.png, id=273, 1283.79625pt x 680.5425pt>
+File: imgs/xmlfile.png Graphic file (type png)
+ <use imgs/xmlfile.png>
+Package pdftex.def Info: imgs/xmlfile.png used on input line 55.
+(pdftex.def)             Requested size: 426.79134pt x 226.2412pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 55--56
+ [][] 
+ []
+
+[20 <./imgs/triangular.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) [21 <./imgs/database-eps-converted-to.pdf>] [22 <./imgs/emailrecords.png> <.
+/imgs/contentemail.png>] [23 <./imgs/resultstatokeeping.jpg> <./imgs/resulttria
+ngularFinished.png>] [24 <./imgs/resultfleetrace.jpg> <./imgs/finalranking.png>
+] [25 <./imgs/uploadingfiles.png>] [26 <./imgs/xmlfile.png>]
+\openout2 = `reflection.aux'.
+
+
+(./body/reflection.tex <imgs/robot.jpg, id=320, 501.875pt x 541.02126pt>
+File: imgs/robot.jpg Graphic file (type jpg)
+
+<use imgs/robot.jpg>
+Package pdftex.def Info: imgs/robot.jpg used on input line 14.
+(pdftex.def)             Requested size: 341.43306pt x 368.07945pt.
+ [27
+
+
+ <./imgs/robot.jpg>]) [28]
+\openout2 = `conclusion.aux'.
+
+ (./body/conclusion.tex)
+[29
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
+ (./ReportOfInternship.aux (./introduction.aux) (./mainwork.aux)
+(./reflection.aux) (./conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `ReportOfInternship.out' has not changed.
-(rerunfilecheck)             Checksum: 3857AFDDEF57C706017AA4C63B3156AA;881.
+(rerunfilecheck)             Checksum: AA781E841F0B1382C2B5D0DD9CDE3B5D;1396.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1369,13 +1686,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 17426 strings out of 494985
- 295095 string characters out of 6180356
- 367344 words of memory out of 5000000
- 20177 multiletter control sequences out of 15000+600000
+ 17596 strings out of 494985
+ 298372 string characters out of 6180356
+ 368057 words of memory out of 5000000
+ 20260 multiletter control sequences out of 15000+600000
  52638 words of font info for 43 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  63i,12n,57p,1560b,1304s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1386,10 +1703,10 @@ m/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmtt9.pfb>
-Output written on ReportOfInternship.pdf (15 pages, 2291910 bytes).
+Output written on ReportOfInternship.pdf (30 pages, 6015856 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 77 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 394 PDF objects out of 1000 (max. 8388607)
+ 319 compressed objects within 4 object streams
+ 123 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 

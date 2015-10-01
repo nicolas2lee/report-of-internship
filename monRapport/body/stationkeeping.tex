@@ -5,4 +5,21 @@ As the WRSC rules described, the objective of the station keeping contest is to 
 P = max (0, 10 - |Tenter + 300 - Tleave|/10)
 Where: Tenter is the timestamp when the boat first enters the box and Tleave is the timestamp
 when the boat first leaves the box. If the boat enters and leaves the box several times, any leave timestamps within ten seconds from Tenter are ignored. All timestamps are given in seconds.
+\item{algorithm for Station Keeping}
+In generally, the aim of station keeping is letting the boat stay 300s exactly in a square(ideally), or more generally stay in a polygon. So the key point of algorithm is checking whether the position of boat is in or out of the polygon.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=12cm]{pinpolygon.png}
+    \caption{All function-oriented branches }
+    \label{fig-sample}
+\end{figure}
+Based on the Point-in-Polygon Algorithm(http://alienryderflex.com/polygon/), here is an example, the solution is to compare each side of the polygon to the Y (vertical) coordinate of the test point, and compile a list of nodes, where each node is a point where one side crosses the Y threshold of the test point. In this example, eight sides of the polygon cross the Y threshold, while the other six sides do not. Then, if there are an odd number of nodes on each side of the test point, then it is inside the polygon; if there are an even number of nodes on each side of the test point, then it is outside the polygon. In our example, there are five nodes to the left of the test point, and three nodes to the right. Since five and three are odd numbers, our test point is inside the polygon.
+Then with more examples:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=12cm]{pinpolgonmoreexamples.png}
+    \caption{All function-oriented branches }
+    \label{fig-sample}
+\end{figure}
+
 \end{itemize}

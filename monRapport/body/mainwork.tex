@@ -1,4 +1,6 @@
 \section{Tasks, Projects and Activities}
+\subsection{Organization}
+In fact, Sylvain Hunault and I need to prepare the web site and trackers in two months. Since Sylvain Hunault knows much more about electronic cards, then he was in charge of the hardware part, including all the antennas, batteries and electronic cards, and I know much more in ruby on rails, so I am in charge of the software part. But we also work together, share the information and put the source codes and useful information into the Github repertoire.
 \subsection{Dairy tasks and activities}
 Actually, the development of website is function-oriented, the branch "master" is the principal branch which will be released to the public, besides every one or two weeks, a new branch which means a new feature was added into the website. And also every new feature need to be tested before merging into the "master" branch.
 
@@ -62,32 +64,19 @@ Similar to the page team\#show, the previous web site could only display the bas
 The previous version web site(WRSC 2014 in Galway) used a table to list all the information for teams, robots, missions, members and etc. And all these tables are only sortable by the alphabetic order.
 \begin{figure}[h!]
 \centering
-\includegraphics[width=15cm]{oldtable.png}
+\includegraphics[width=15cm]{newtable.png}
 \caption{WRSC 2014 searchable only table }
 \label{fig-sample}
 \end{figure}
 The only sortable table works well when there is not enormous data, if we suppose that there are more than 100 members in our database, and if you want to find the information about one member and you had only the name of this member, it will be stupid to check the whole list just by eyes. Furthermore, if the web site displays more than 10 records in one page, which often makes the user feeling uncomfortable and inefficient. Based on these reasons, we choose a flexible and customisable JavaScript plug-in "DataTable". DataTables is very simple to use as a jQuery plug-in with a huge range of customisable option, and the functions which we are interested most are sorting(which makes the table sortable by alphabetic order), filtering (which makes the table searchable, we can search one element by typing part of the keyword) and pagination (which limits the number of elements in one page, also it will make the page loading be faster and reduce the pressure of server because of the limitation of elements in the page). What's more, "DataTable" provides more APIs which also make the html table flexible, the developers are easy to get the index or element in the table just by calling the functions, comparing to the static html table, the "DataTable" is more dynamic and interacted for users.
-\begin{figure}[h!]
-\centering
-\includegraphics[width=15cm]{DataTable.png}
-\caption{DataTable plug-in example }
-\label{fig-sample}
-\end{figure}
 
 \subsubsection{Improved Account Management}
 \begin{enumerate}
 \item{Signup}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=15cm]{oldsignup.png}
+\includegraphics[width=15cm]{signup.png}
 \caption{old sign up }
-\label{fig-sample}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=15cm]{newsignup.png}
-\caption{new sign up }
 \label{fig-sample}
 \end{figure}
 
@@ -179,19 +168,24 @@ The function of "Remember me" is quite similar to sending the activation link to
 \end{itemize}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=15cm]{oldsignin.png}
-\caption{old sign in }
+\includegraphics[width=15cm]{signin.png}
+\caption{sign in }
 \label{fig-sample}
 \end{figure}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=15cm]{newsignin.png}
-\caption{new sign in }
-\label{fig-sample}
-\end{figure}
 
 \end{enumerate}
 \input{adminmarkers}
 \input{scoringandranking}
 
+Based on all the new features, finally we improved our database which is more complete.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=15cm]{database.eps}
+\caption{new sign in }
+\label{fig-sample}
+\end{figure}
+\subsection{Settings in the virtual machine}
+\input{settings}
+\subsection{Result for Tracking System and WRSC}
+\input{result}

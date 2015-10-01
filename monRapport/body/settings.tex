@@ -1,0 +1,9 @@
+After we had finished our development of web site, we need to put our site into the internet. Thanks to Ålcom Mariehamn(A telecommunication company in Mariehamn, Finland) who sponsored a virtual machine to run our server. Initially the server was inaccessible from outside, which means the server do not allow the user from internet to connect to this server. So in order to put our server on the internet, the first thing we need to configure the firewall by using "iptables", since it was a Linux machine. By default, rails application uses the port 3000 to run the server, but then the url will be terminated with :3000, which is not the familiar convention for the most users, so we choose the port 80 rather than the port 3000 to offer our service. 
+
+With the command:
+\begin{lstlisting}
+sudo iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+\end{lstlisting}
+we enable the visit outside to the port 80.
+
+After setting the secret\_key\_base into the environmental variable in the virtual machine, we launched the machine with production mode(which is light and safer than development and test mode), our server was well prepared for the service.
