@@ -1,6 +1,6 @@
 \subsubsection{Auto Scoring and Ranking}
 \begin{enumerate}
-\item{Scoring}
+\item{\textbf{Scoring}}
 
 
 The WRSC contains 4 missions: Station Keeping, Area Scanning, Triangular Course and Fleet Race. And I was in charge of the scoring for Station Keeping and Area Scanning. So I will introduce the algorithms I had chosen to calculate the score.
@@ -8,9 +8,10 @@ The WRSC contains 4 missions: Station Keeping, Area Scanning, Triangular Course 
 \input{stationkeeping}
 \input{areascanning}
 \end{itemize} 
-\item{Ranking}
+\item{\textbf{Ranking}}
 \begin{itemize}
 \input{improvedmodel}
 \input{processesofranking}
+After obtaining the best score for every team, we could calculate the rank. Here something should be noticed, the AIS points are not taken into account in every single mission, but in the final score, we should add the AIS points.
 \end{itemize}
 \end{enumerate}
