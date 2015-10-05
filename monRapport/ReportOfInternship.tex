@@ -44,10 +44,11 @@
 \usepackage{graphicx}
 % repertoire dans lequel trouver les images
 \graphicspath{{imgs/}}
-\DeclareGraphicsExtensions{.eps,.ps,.jpg,.bmp,.png}
+\DeclareGraphicsExtensions{.eps,.ps,.jpg,.bmp,.png,.pdf}
 % liens hypertexte dans le document
 \usepackage[colorlinks,breaklinks,linkcolor=blue]{hyperref}
 
+\usepackage{pdfpages}
 
 \title{Report of 2nd Year's Assistant Engineer Internship }
 \author{ZHENG \textsc{Tao}\\
@@ -64,7 +65,7 @@
 \begin{document}
 % creer le titre ici
 \maketitle
-\input{abstract}
+
 \tableofcontents
 %============= Un resume en francais et un abstract en angais d'un demi-page chacun a placer en debut de rapport
 %============= introduction
@@ -80,9 +81,10 @@
 
 %============= Conclusion
 %============= annexe
-\begin{thebibliography}
-\bibitem {[1] World Robotic Sailing Championship 2015 \& International Robotic Sailing Conference - http://wrsc2015.com/}
-\end{thebibliography}
+\newpage
+\input{reference}
+\newpage
+\input{appendices}
 
 \end{document}
 
