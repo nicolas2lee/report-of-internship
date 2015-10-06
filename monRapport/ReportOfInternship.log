@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.12)  6 OCT 2015 01:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.12)  6 OCT 2015 23:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,7 +984,8 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count143
 \AM@templatesizebox=\box40
 )
-(./ReportOfInternship.aux (./introduction.aux) (./mainwork.aux
+(./ReportOfInternship.aux (./myabstract.aux) (./introduction.aux)
+(./mainwork.aux
 
 LaTeX Warning: Label `fig-sample' multiply defined.
 
@@ -1224,7 +1225,27 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./imgs/logo_ENSTA_Bretagne
-_Vertical_CMJN.pdf>] (./ReportOfInternship.toc
+_Vertical_CMJN.pdf>]
+\openout2 = `myabstract.aux'.
+
+ (./body/myabstract.tex
+! Undefined control sequence.
+l.21   cadre de leur scolarité à l'\gls
+                                         {enstab}.  Sont présentés, de façon
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.68 \include{myabstract}
+                          [1
+
+] (./ReportOfInternship.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1233,50 +1254,47 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write5
 \openout5 = `ReportOfInternship.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.72 \include{introduction}
-                            [1]
-\openout2 = `introduction.aux'.
-
- (./body/introduction.tex (./body/WRSC.tex)
-(./body/SWARMON.tex) (./body/Objective.tex [2
+ [2
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 8.
+\openout2 = `introduction.aux'.
+
+
+(./body/introduction.tex (./body/WRSC.tex) (./body/SWARMON.tex
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 3.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))) [3]
+)) (./body/Objective.tex [3
+
+])) [4]
 \openout2 = `mainwork.aux'.
 
- (./body/mainwork.tex
-<imgs/allbranches.png, id=187, 756.8275pt x 647.41875pt>
+
+(./body/mainwork.tex <imgs/allbranches.png, id=195, 756.8275pt x 647.41875pt>
 File: imgs/allbranches.png Graphic file (type png)
 
 <use imgs/allbranches.png>
 Package pdftex.def Info: imgs/allbranches.png used on input line 9.
 (pdftex.def)             Requested size: 341.43306pt x 292.07664pt.
- [4
+ [5
 
 
  <./imgs/allbranches.png>]
-<imgs/oldversion.png, id=193, 795.97375pt x 355.3275pt>
+<imgs/oldversion.png, id=201, 795.97375pt x 355.3275pt>
 File: imgs/oldversion.png Graphic file (type png)
 
 <use imgs/oldversion.png>
 Package pdftex.def Info: imgs/oldversion.png used on input line 29.
 (pdftex.def)             Requested size: 398.33858pt x 177.82053pt.
- <imgs/homepage.png, id=194, 1066.98625pt x 770.88pt>
+ <imgs/homepage.png, id=202, 1066.98625pt x 770.88pt>
 File: imgs/homepage.png Graphic file (type png)
 
 <use imgs/homepage.png>
 Package pdftex.def Info: imgs/homepage.png used on input line 36.
 (pdftex.def)             Requested size: 369.88582pt x 267.23602pt.
 
-<imgs/oldteamshow.png, id=195, 320.19624pt x 373.395pt>
+<imgs/oldteamshow.png, id=203, 320.19624pt x 373.395pt>
 File: imgs/oldteamshow.png Graphic file (type png)
 
 <use imgs/oldteamshow.png>
@@ -1286,8 +1304,8 @@ Package pdftex.def Info: imgs/oldteamshow.png used on input line 43.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./imgs/oldversion.png> <./imgs/homepage.png>]
-<imgs/orgcharts.png, id=202, 1308.89pt x 671.50874pt>
+[6 <./imgs/oldversion.png> <./imgs/homepage.png>]
+<imgs/orgcharts.png, id=211, 1308.89pt x 671.50874pt>
 File: imgs/orgcharts.png Graphic file (type png)
  <use imgs/orgcharts.png>
 Package pdftex.def Info: imgs/orgcharts.png used on input line 55.
@@ -1300,7 +1318,7 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 55--56
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imgs/newtable.png, id=203, 744.7825pt x 570.13pt>
+<imgs/newtable.png, id=212, 744.7825pt x 570.13pt>
 File: imgs/newtable.png Graphic file (type png)
  <use imgs/newtable.png>
 Package pdftex.def Info: imgs/newtable.png used on input line 66.
@@ -1310,11 +1328,11 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 66--67
  [][] 
  []
 
-[6 <./imgs/oldteamshow.png>]
+[7 <./imgs/oldteamshow.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imgs/signup.png, id=210, 582.175pt x 636.3775pt>
+<imgs/signup.png, id=218, 582.175pt x 636.3775pt>
 File: imgs/signup.png Graphic file (type png)
  <use imgs/signup.png>
 Package pdftex.def Info: imgs/signup.png used on input line 77.
@@ -1323,8 +1341,8 @@ Package pdftex.def Info: imgs/signup.png used on input line 77.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <./imgs/orgcharts.png>] [8 <./imgs/newtable.png>] [9 <./imgs/signup.png>]
-[10] <imgs/signin.png, id=251, 674.52pt x 422.57875pt>
+[8 <./imgs/orgcharts.png>] [9 <./imgs/newtable.png>] [10 <./imgs/signup.png>]
+[11] <imgs/signin.png, id=259, 674.52pt x 422.57875pt>
 File: imgs/signin.png Graphic file (type png)
  <use imgs/signin.png>
 Package pdftex.def Info: imgs/signin.png used on input line 182.
@@ -1333,8 +1351,8 @@ Package pdftex.def Info: imgs/signin.png used on input line 182.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11] (./body/adminmarkers.tex
-<imgs/designedadminmarkers.png, id=273, 832.10875pt x 529.98pt>
+[12] (./body/adminmarkers.tex
+<imgs/designedadminmarkers.png, id=282, 832.10875pt x 529.98pt>
 File: imgs/designedadminmarkers.png Graphic file (type png)
 
 <use imgs/designedadminmarkers.png>
@@ -1344,7 +1362,7 @@ Package pdftex.def Info: imgs/designedadminmarkers.png used on input line 9.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imgs/examplemarkers.png, id=276, 1316.92pt x 656.4525pt>
+<imgs/examplemarkers.png, id=285, 1316.92pt x 656.4525pt>
 File: imgs/examplemarkers.png Graphic file (type png)
 
 <use imgs/examplemarkers.png>
@@ -1356,23 +1374,23 @@ Overfull \hbox (9.8703pt too wide) in paragraph at lines 14--22
  google . com / maps / documentation / javascript /
  []
 
-[12 <./imgs/signin.png>] [13 <./imgs/designedadminmarkers.png> <./imgs/examplem
-arkers.png>] <imgs/ajaxinfowindow.png, id=291, 1280.785pt x 674.52pt>
+[13 <./imgs/signin.png>] [14 <./imgs/designedadminmarkers.png> <./imgs/examplem
+arkers.png>] <imgs/ajaxinfowindow.png, id=300, 1280.785pt x 674.52pt>
 File: imgs/ajaxinfowindow.png Graphic file (type png)
 
 <use imgs/ajaxinfowindow.png>
 Package pdftex.def Info: imgs/ajaxinfowindow.png used on input line 44.
 (pdftex.def)             Requested size: 341.43306pt x 179.80705pt.
-) (./body/scoringandranking.tex [14 <./imgs/ajaxinfowindow.png>] (./body/statio
+) (./body/scoringandranking.tex [15 <./imgs/ajaxinfowindow.png>] (./body/statio
 nkeeping.tex
-<imgs/pinpolygon.png, id=297, 326.21875pt x 216.81pt>
+<imgs/pinpolygon.png, id=306, 326.21875pt x 216.81pt>
 File: imgs/pinpolygon.png Graphic file (type png)
 
 <use imgs/pinpolygon.png>
 Package pdftex.def Info: imgs/pinpolygon.png used on input line 20.
 (pdftex.def)             Requested size: 227.62204pt x 151.28625pt.
 
-<imgs/pinpolgonmoreexamples.png, id=299, 437.635pt x 155.58125pt>
+<imgs/pinpolgonmoreexamples.png, id=308, 437.635pt x 155.58125pt>
 File: imgs/pinpolgonmoreexamples.png Graphic file (type png)
 
 <use imgs/pinpolgonmoreexamples.png>
@@ -1384,8 +1402,8 @@ Overfull \hbox (14.22313pt too wide) in paragraph at lines 25--33
  http : / / alienryderflex . com / polygon/$[][]\T1/lmr/m/n/10 ),
  []
 
-[15 <./imgs/pinpolygon.png>]) (./body/areascanning.tex [16 <./imgs/pinpolgonmor
-eexamples.png>] <imgs/distanceformula.png, id=318, 829.0975pt x 418.56375pt>
+[16 <./imgs/pinpolygon.png>]) (./body/areascanning.tex [17 <./imgs/pinpolgonmor
+eexamples.png>] <imgs/distanceformula.png, id=326, 829.0975pt x 418.56375pt>
 File: imgs/distanceformula.png Graphic file (type png)
 
 <use imgs/distanceformula.png>
@@ -1402,7 +1420,7 @@ Overfull \hbox (4.36443pt too wide) in paragraph at lines 42--43
 ties(JSON/YAML/XML)
  []
 
-[17 <./imgs/distanceformula.png>]) (./body/improvedmodel.tex
+[18 <./imgs/distanceformula.png>]) (./body/improvedmodel.tex
 Package epstopdf Info: Source file: <imgs/improvedpartdatabase.eps>
 (epstopdf)                    date: 2015-10-01 16:00:04
 (epstopdf)                    size: 310010 bytes
@@ -1415,7 +1433,7 @@ eps-converted-to.pdf imgs/improvedpartdatabase.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
-<imgs/improvedpartdatabase-eps-converted-to.pdf, id=329, 1013.7875pt x 542.025p
+<imgs/improvedpartdatabase-eps-converted-to.pdf, id=338, 1013.7875pt x 542.025p
 t>
 File: imgs/improvedpartdatabase-eps-converted-to.pdf Graphic file (type pdf)
  <use imgs/improvedpartdatabase-eps-converted-to.pdf>
@@ -1424,7 +1442,7 @@ Package pdftex.def Info: imgs/improvedpartdatabase-eps-converted-to.pdf used on
 (pdftex.def)             Requested size: 284.52756pt x 152.1216pt.
 )
 (./body/processesofranking.tex
-<imgs/triangular.jpg, id=330, 664.4825pt x 740.7675pt>
+<imgs/triangular.jpg, id=339, 664.4825pt x 740.7675pt>
 File: imgs/triangular.jpg Graphic file (type jpg)
 
 <use imgs/triangular.jpg>
@@ -1449,7 +1467,7 @@ Package epstopdf Info: Source file: <imgs/database.eps>
 d-to.pdf imgs/database.eps>
 (epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
- <imgs/database-eps-converted-to.pdf, id=331, 1218.5525pt x 1180.41pt>
+ <imgs/database-eps-converted-to.pdf, id=340, 1218.5525pt x 1180.41pt>
 File: imgs/database-eps-converted-to.pdf Graphic file (type pdf)
 
 <use imgs/database-eps-converted-to.pdf>
@@ -1464,9 +1482,9 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 213--214
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./body/settings.tex [18 <./imgs/improvedpartdatabase-eps-converted-to.pdf>])
-[19 <./imgs/triangular.jpg>] (./body/result.tex
-<imgs/emailrecords.png, id=348, 1121.18875pt x 572.1375pt>
+(./body/settings.tex [19 <./imgs/improvedpartdatabase-eps-converted-to.pdf>])
+[20 <./imgs/triangular.jpg>] (./body/result.tex
+<imgs/emailrecords.png, id=356, 1121.18875pt x 572.1375pt>
 File: imgs/emailrecords.png Graphic file (type png)
 
 <use imgs/emailrecords.png>
@@ -1480,7 +1498,7 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 8--9
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imgs/contentemail.png, id=349, 871.255pt x 268.00125pt>
+<imgs/contentemail.png, id=357, 871.255pt x 268.00125pt>
 File: imgs/contentemail.png Graphic file (type png)
 
 <use imgs/contentemail.png>
@@ -1490,7 +1508,7 @@ Package pdftex.def Info: imgs/contentemail.png used on input line 15.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<imgs/resultmissions.png, id=351, 783.92876pt x 1261.71375pt>
+<imgs/resultmissions.png, id=359, 783.92876pt x 1261.71375pt>
 File: imgs/resultmissions.png Graphic file (type png)
 
 <use imgs/resultmissions.png>
@@ -1500,15 +1518,15 @@ Package pdftex.def Info: imgs/resultmissions.png used on input line 26.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20 <./imgs/database-eps-converted-to.pdf>]
-<imgs/finalranking.png, id=361, 759.83875pt x 644.4075pt>
+[21 <./imgs/database-eps-converted-to.pdf>]
+<imgs/finalranking.png, id=369, 759.83875pt x 644.4075pt>
 File: imgs/finalranking.png Graphic file (type png)
 
 <use imgs/finalranking.png>
 Package pdftex.def Info: imgs/finalranking.png used on input line 37.
 (pdftex.def)             Requested size: 341.43306pt x 289.56772pt.
 
-<imgs/uploadfileandxml.png, id=362, 883.3pt x 500.87125pt>
+<imgs/uploadfileandxml.png, id=370, 883.3pt x 500.87125pt>
 File: imgs/uploadfileandxml.png Graphic file (type png)
 
 <use imgs/uploadfileandxml.png>
@@ -1525,30 +1543,30 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)) [21 <./imgs/emailrecords.png> <./imgs/contentemail.png>] [22 <./imgs/resultm
-issions.png>] [23 <./imgs/finalranking.png> <./imgs/uploadfileandxml.png>]
+)) [22 <./imgs/emailrecords.png> <./imgs/contentemail.png>] [23 <./imgs/resultm
+issions.png>] [24 <./imgs/finalranking.png> <./imgs/uploadfileandxml.png>]
 \openout2 = `reflection.aux'.
 
 
-(./body/reflection.tex <imgs/robot.jpg, id=382, 501.875pt x 541.02126pt>
+(./body/reflection.tex <imgs/robot.jpg, id=391, 501.875pt x 541.02126pt>
 File: imgs/robot.jpg Graphic file (type jpg)
 
 <use imgs/robot.jpg>
-Package pdftex.def Info: imgs/robot.jpg used on input line 14.
+Package pdftex.def Info: imgs/robot.jpg used on input line 17.
 (pdftex.def)             Requested size: 284.52756pt x 306.73425pt.
- [24
+ [25
 
 
- <./imgs/robot.jpg>]) [25]
+ <./imgs/robot.jpg>]) [26]
 \openout2 = `conclusion.aux'.
 
  (./body/conclusion.tex)
-[26
+[27
 
 
-] (./body/reference.tex) [27
+] (./body/reference.tex) [28
 
-] (./body/appendices.tex [28]
+] (./body/appendices.tex [29]
 Overfull \hbox (10.14836pt too wide) in paragraph at lines 34--35
 []\T1/lmr/m/n/10 Provided by Google freely, enor-mous APIs as-so-ci-ated with g
 oogle map([][]$\T1/lmtt/m/n/10 https : / / developers .
@@ -1560,13 +1578,13 @@ Overfull \hbox (9.70418pt too wide) in paragraph at lines 74--75
 0 https : / / github . com / nicolas2lee / AdvancedMYR$[][]\T1/lmr/m/n/10 ) 
  []
 
-[29] [30]
+[30] [31]
 
 Package pdfpages Warning: Option `page' is unknow to \includepdf.
 (pdfpages)                Did you mean `pages'? (Note the `s'!)
 (pdfpages)                OK, I'll proceed as if it were `pages'.
 
-<imgs/internshipagreement.pdf, id=465, 597.23125pt x 844.15375pt>
+<imgs/internshipagreement.pdf, id=474, 597.23125pt x 844.15375pt>
 File: imgs/internshipagreement.pdf Graphic file (type pdf)
 
 <use imgs/internshipagreement.pdf>
@@ -1576,8 +1594,8 @@ File: imgs/internshipagreement.pdf Graphic file (type pdf)
  <use imgs/internshipagreement.pdf>
 Package pdftex.def Info: imgs/internshipagreement.pdf used on input line 126.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
- [31]
-<imgs/internshipagreement.pdf, id=497, page=3, 597.23125pt x 844.15375pt>
+ [32]
+<imgs/internshipagreement.pdf, id=506, page=3, 597.23125pt x 844.15375pt>
 File: imgs/internshipagreement.pdf Graphic file (type pdf)
 
 <use imgs/internshipagreement.pdf, page 3>
@@ -1608,7 +1626,7 @@ File: imgs/internshipagreement.pdf Graphic file (type pdf)
 Package pdftex.def Info: imgs/internshipagreement.pdf, page3 used on input line
  126.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [32 <./imgs/internshipagreement.pdf>] <imgs/internshipagreement.pdf, id=504, p
+ [33 <./imgs/internshipagreement.pdf>] <imgs/internshipagreement.pdf, id=513, p
 age=4, 597.23125pt x 844.15375pt>
 File: imgs/internshipagreement.pdf Graphic file (type pdf)
 
@@ -1628,7 +1646,7 @@ File: imgs/internshipagreement.pdf Graphic file (type pdf)
 Package pdftex.def Info: imgs/internshipagreement.pdf, page4 used on input line
  126.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [33 <./imgs/internshipagreement.pdf>] <imgs/internshipagreement.pdf, id=511, p
+ [34 <./imgs/internshipagreement.pdf>] <imgs/internshipagreement.pdf, id=520, p
 age=5, 597.23125pt x 844.15375pt>
 File: imgs/internshipagreement.pdf Graphic file (type pdf)
 
@@ -1648,7 +1666,7 @@ File: imgs/internshipagreement.pdf Graphic file (type pdf)
 Package pdftex.def Info: imgs/internshipagreement.pdf, page5 used on input line
  126.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [34 <./imgs/internshipagreement.pdf>] <imgs/internshipagreement.pdf, id=518, p
+ [35 <./imgs/internshipagreement.pdf>] <imgs/internshipagreement.pdf, id=527, p
 age=6, 597.23125pt x 844.15375pt>
 File: imgs/internshipagreement.pdf Graphic file (type pdf)
 
@@ -1668,7 +1686,7 @@ File: imgs/internshipagreement.pdf Graphic file (type pdf)
 Package pdftex.def Info: imgs/internshipagreement.pdf, page6 used on input line
  126.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [35 <./imgs/internshipagreement.pdf>] <imgs/internshipagreement.pdf, id=525, p
+ [36 <./imgs/internshipagreement.pdf>] <imgs/internshipagreement.pdf, id=535, p
 age=7, 597.23125pt x 844.15375pt>
 File: imgs/internshipagreement.pdf Graphic file (type pdf)
 
@@ -1688,7 +1706,7 @@ File: imgs/internshipagreement.pdf Graphic file (type pdf)
 Package pdftex.def Info: imgs/internshipagreement.pdf, page7 used on input line
  126.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [36 <./imgs/internshipagreement.pdf>] <imgs/internshipagreement.pdf, id=533, p
+ [37 <./imgs/internshipagreement.pdf>] <imgs/internshipagreement.pdf, id=543, p
 age=8, 597.23125pt x 844.15375pt>
 File: imgs/internshipagreement.pdf Graphic file (type pdf)
 
@@ -1708,7 +1726,7 @@ File: imgs/internshipagreement.pdf Graphic file (type pdf)
 Package pdftex.def Info: imgs/internshipagreement.pdf, page8 used on input line
  126.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [37 <./imgs/internshipagreement.pdf>] <imgs/internshipagreement.pdf, id=540, p
+ [38 <./imgs/internshipagreement.pdf>] <imgs/internshipagreement.pdf, id=550, p
 age=9, 597.23125pt x 844.15375pt>
 File: imgs/internshipagreement.pdf Graphic file (type pdf)
 
@@ -1728,14 +1746,14 @@ File: imgs/internshipagreement.pdf Graphic file (type pdf)
 Package pdftex.def Info: imgs/internshipagreement.pdf, page9 used on input line
  126.
 (pdftex.def)             Requested size: 597.73099pt x 844.86012pt.
- [38 <./imgs/internshipagreement.pdf>] <imgs/verso.jpg, id=548, 439.4016pt x 74
+ [39 <./imgs/internshipagreement.pdf>] <imgs/verso.jpg, id=557, 439.4016pt x 74
 1.4902pt>
 File: imgs/verso.jpg Graphic file (type jpg)
  <use imgs/verso.jpg>
 Package pdftex.def Info: imgs/verso.jpg used on input line 132.
 (pdftex.def)             Requested size: 341.43306pt x 576.19902pt.
 
-<imgs/recto.jpg, id=549, 445.1832pt x 729.927pt>
+<imgs/recto.jpg, id=558, 445.1832pt x 729.927pt>
 File: imgs/recto.jpg Graphic file (type jpg)
  <use imgs/recto.jpg>
 Package pdftex.def Info: imgs/recto.jpg used on input line 137.
@@ -1746,14 +1764,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
- [39 <./imgs/verso.jpg>] [40 <./imgs/recto.jpg>]
+ [40 <./imgs/verso.jpg>] [41 <./imgs/recto.jpg>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
  (./ReportOfInternship.aux
-(./introduction.aux) (./mainwork.aux) (./reflection.aux) (./conclusion.aux))
+(./myabstract.aux) (./introduction.aux) (./mainwork.aux) (./reflection.aux)
+(./conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 Package rerunfilecheck Info: File `ReportOfInternship.out' has not changed.
-(rerunfilecheck)             Checksum: EC8308224D716862593A607A1D68E22E;1861.
+(rerunfilecheck)             Checksum: CCE4D9E87ACEF1FFB4B371732E2CB5E1;1876.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1764,10 +1783,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 18462 strings out of 494985
- 311449 string characters out of 6180356
- 395570 words of memory out of 5000000
- 21016 multiletter control sequences out of 15000+600000
+ 18475 strings out of 494985
+ 311619 string characters out of 6180356
+ 395949 words of memory out of 5000000
+ 21017 multiletter control sequences out of 15000+600000
  60162 words of font info for 50 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  63i,18n,57p,1665b,1319s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1778,10 +1797,10 @@ m/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on ReportOfInternship.pdf (41 pages, 8051060 bytes).
+Output written on ReportOfInternship.pdf (42 pages, 8056486 bytes).
 PDF statistics:
- 636 PDF objects out of 1000 (max. 8388607)
- 523 compressed objects within 6 object streams
- 198 named destinations out of 1000 (max. 500000)
+ 646 PDF objects out of 1000 (max. 8388607)
+ 532 compressed objects within 6 object streams
+ 203 named destinations out of 1000 (max. 500000)
  401 words of extra memory for PDF output out of 10000 (max. 10000000)
 
